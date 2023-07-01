@@ -32,4 +32,6 @@ This interface allows users to plan our their agenda for the day. They can tick 
 3.Woof Garden <br>
 This interface is where the gamified and interactive features come in. There will be different pet characters where users can obtain using the points earned from the above interfaces.User can also interact with the characters and feed them regurlarly to maintain the Happiness Level (HL). There will be a minimum HL to be maintained, or the character will be disabled until actions are done to fulfill the minimum HL. This could encourage users to complete their goals on time. <br>
 
-About User instruction: please follow the pdf version of README in another file in the repository
+About User instruction: please follow file “Project Log” ：https://github.com/concealexi/Ah-Giraffe/blob/f0591e7887716c46b26b81ad739e020bce8efc7b/orbital-app/Project%20Log.pdf
+
+Video Demo Link: https://www.youtube.com/watch?v=otIsWdECgxo
