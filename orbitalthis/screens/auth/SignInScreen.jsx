@@ -12,9 +12,9 @@ const SignInScreen = ({navigation}) => {
 
     const theme = useTheme();
     const {setUserInfo} = useContext(DataContext);
-    const [username, setUsername] = useState('User');
-    const [password, setPassword] = useState('Password');
-    const [disabled, setDisabled] = useState(false);
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [disabled, setDisabled] = useState(true);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
