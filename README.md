@@ -22,7 +22,7 @@ We hope to create an Android and IOS app to help people increase their efficienc
 https://drive.google.com/file/d/1Kd1Fgbkyp984ObWj3eHG4bevYFxg-mWM/view?usp=sharing
 
 ***Video Link:***
-...
+https://youtu.be/ThzrLIAn2HQ
 
 
 
