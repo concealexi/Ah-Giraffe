@@ -1,4 +1,4 @@
-import {useContext, useEffect, useRef, useState} from "react";
+import {useContext, useEffect, useLayoutEffect, useRef, useState} from "react";
 import {
     ImageBackground,
     StyleSheet,
@@ -12,6 +12,7 @@ import AppScreen from "../AppScreen";
 import ProgressBar from "../../components/ProgressBar";
 import DataContext from "../../DataContext";
 import getTodayTimestamps from "../../utils/getTodayTimestamps";
+import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
 
 const PetScreen = ({navigation}) => {
 
@@ -26,6 +27,15 @@ const PetScreen = ({navigation}) => {
             editExpirationTime(current);
         }
     }, []);
+
+    const tabBarHeight = useBottomTabBarHeight();
+
+    useLayoutEffect(() => {
+        navigation.setOptions({
+            tabBarStyle: { display: 'none', height: 0, overflow: 'hidden' },
+            tabBarHideOnKeyboard: true,
+        });
+    }, [navigation]);
 
     const handleTaskABath = () => {
         handleDogAction('bath', 5, 1);
